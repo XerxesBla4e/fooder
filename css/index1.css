@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   /* border: 1px solid black;*/
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+}
+.clear-fix{
+    float: none;
+    clear: both;
+}
+/*Css for Menu*/
+.menu ul{
+    list-style-type: none;
+    text-align: right;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+.lg{
+    line-height: 40%;
+}
+
+/*Images CSS*/
+.img-responsive{
+width: 100%;
+}
+.img-curve{
+border-radius:4px;
+}
+
+/*css for logo*/
+.logo{
+    width: 10%;
+    float: left;
+}
+
+/*css for text alignment*/
+.text-centre{
+    text-align: center;
+}
+/*CSS FOR SEARCH */
+.food-search{
+    background-image: url(../images/burger.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7%;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    border: none;
+    border-radius: 3%;
+    font-size: 1rem;
+}
+/*css for float box and text*/
+.float-food-box{
+    position: relative;
+}
+.float-food-text{
+    position: absolute;
+    bottom: 23%;
+    left: 25%;
+}
+
+/*CSS for Category*/
+.category-menu{
+    background-color: lightgray;
+}
+.food-box{
+    width: 23%;
+    float: left;
+    padding: 5%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.food-text,.text-white{
+    color: white;
+}
+
+/*CSS FOR BUTTON*/
+.btn{
+    border-radius: 3%;
+    padding: 1%;
+    color: white;
+    font-weight: 1.2rem;
+    background-color:#ff6b81;
+    cursor: pointer;
+}
+.btnlnk{
+    border-radius: 3%;
+    padding: 3%;
+    color: white;
+    font-weight: 1.7rem;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover,.btn-primary:hover{
+   /* color: #ff4757;*/
+    color: white;
+    background-color: #ff4757;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*css for food menu*/
+.food-item{
+    padding: 10%;
+}
+.Food-menu-box{
+width: 28%;
+float: left;
+padding: 1%;
+margin: 1%;
+border: 1px solid black;
+background-color: white;
+border-radius: 15px;
+}
+.Food-image{
+    width: 24%;
+    float: left;
+}
+
+.Food-description{
+    float: left;
+    width: 50%;
+    margin-left: 12%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+/*fieldset css*/
+.success{
+    font-size: 1.2rem;
+    color: green;
+}
+.error{
+    font-size: 1.2rem;
+    color: red;
+}
+/*end of fieldset css*/
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+/*css for footer*/
+
+.footer{
+    background-color: lightgray;
+}
+
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin: 0 auto;
+    }
+    .lg{
+        line-height: 120%;
+    }
+    .menu ul{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 0;
+    }
+    .food-search{
+        padding: 12%;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 6%;
+    }
+    .btn{
+        font-size: 1.2rem;
+        padding: 3%;
+        width: 50%;
+    }
+    .btnlnk{
+        font-size: 2rem;
+        padding: 4%;
+        width: 60%;
+    }
+    .category-menu{
+        padding: 5%;
+        margin-bottom: 3%;
+    }
+    .food-item{
+       padding:22% 0;        
+    }
+    .Food-menu-box{
+        width: 90%;
+        padding: 4%;
+        margin-bottom: 4%;
+        margin: 0% auto;
+    }
+
+    .food-box{
+      width: 90%;
+      margin: 4% auto;
+    }
+
+    .food-text{
+        font-size: 2rem;
+    }
+    .footerx{
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 10%;
+    }
+    .Food-description{
+        width: 50%;
+        float: left;
+        margin-left: 12%;
+    }
+    .food-price{
+        font-size: 2rem;
+        margin: 2% 0;
+    }
+    .food-des{
+        font-size: 1.4rem;
+    }
+    .food-title{
+        font-size: 1.4rem;
+    }
+}
+
